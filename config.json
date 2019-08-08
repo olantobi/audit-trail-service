@@ -1,0 +1,23 @@
+{
+  "useHttps": false,
+  "appSecret": "873B2D3DB5DF436EADFC5172C62E9270426",
+  "appPort": 5002,
+  "baseUrl": "http://localhost:5002/",  
+  "rabbitParams": {
+    "protocol": "amqp",    
+    "hostname": "macaw.rmq.cloudamqp.com",
+    "port": "5672",
+    "username": "nofxyoqv",
+    "password": "nRozHVCo1UQu9nyMzXF5m50RnkHzeNQG",
+    "locale": "en_US",
+    "frameMax": 0,
+    "heartbeat": 0,
+    "vhost": "nofxyoqv",
+    "queueName": "audit-queue"
+  },
+  "elasticsearch": {
+    "host": "http://localhost:9200",
+    "indexName": "audit-trail"
+  }
+}
+
